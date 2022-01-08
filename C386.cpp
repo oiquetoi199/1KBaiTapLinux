@@ -9,7 +9,7 @@ void cotTongNhoNhat(int a[][MAX], int row, int col)
     {
         tongCotMin += a[i][1];
     }
-    
+   
     // tim tong cot nho nhat
     for (int i = 0; i < col; i++)
     {
