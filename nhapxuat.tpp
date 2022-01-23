@@ -18,7 +18,7 @@ void xuatMang(dataType a[][MAX], int row, int col)
     {
         for (int j = 0; j < col; j++)
         {
-            cout << a[i][j] << " ";
+            cout << setw(6) << a[i][j] << " ";
         }
         cout << endl;
     }
