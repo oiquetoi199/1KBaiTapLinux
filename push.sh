@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git add .
-read note
 echo -n "Them note cho commit : "
+read note
 git commit -m "$note"
 git push
