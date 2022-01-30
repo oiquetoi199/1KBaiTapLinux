@@ -3,6 +3,6 @@
 echo -n "Nhap so cau : "   
 read file
 a=".cpp"
-b="$file$a"
+b="C$file$a"
 
 g++ $b -o test
